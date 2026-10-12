@@ -1,0 +1,22 @@
+Package: xdotool-gui
+Version: 1.0.0-1
+Section: utils
+Priority: optional
+Architecture: arm64
+Depends: libc6 (>= 2.29), libstdc++6 (>= 9), libqt5core5a (>= 5.12.2), libqt5gui5 (>= 5.12.2), libqt5widgets5 (>= 5.12.2), libx11-6, libxtst6, libxinerama1, libxkbcommon0
+Installed-Size: 520
+Maintainer: Kylin Builder <root@localhost>
+Description: 输入自动化助手 (xdotool 图形界面 / Qt5)
+ xdotool 是 X11 上用于模拟鼠标、键盘输入以及管理窗口的命令行工具。
+ 本软件包提供其 Qt5 图形前端，将上游 libxdo 静态链接进主程序，
+ 无需安装 libxdo 运行库，也无需安装 xdotool 命令行程序。
+ .
+ 功能包括：
+  - 鼠标指针绝对/相对移动、按键点击、按下与抬起、位置读取
+  - 文本自动键入（可调字符间隔）、按键序列发送（如 ctrl+c）、按下/抬起
+  - 窗口搜索（标题/类名正则）、激活、聚焦、置顶、降低、最小化、关闭
+  - 窗口移动、尺寸调整、几何与 PID 读取
+  - 工作区（虚拟桌面）数量与切换、延时、运行日志
+ .
+ 运行环境要求：X11 桌面会话（银河麒麟 V10 桌面版 UKUI 默认 X11）。
+ 在 Wayland 会话下 XTest 输入注入不生效。

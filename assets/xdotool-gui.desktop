@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=xdotool GUI
+Name[zh_CN]=输入自动化助手
+GenericName=Input Automation Tool
+GenericName[zh_CN]=输入自动化工具
+Comment=Graphical front-end for xdotool (mouse, keyboard and window automation)
+Comment[zh_CN]=xdotool 图形界面，提供鼠标、键盘与窗口自动化操作
+Exec=xdotool-gui
+Icon=xdotool-gui
+Terminal=false
+Categories=Utility;System;
+Keywords=xdotool;automation;mouse;keyboard;window;
+Keywords[zh_CN]=自动化;鼠标;键盘;窗口;
+StartupNotify=true
