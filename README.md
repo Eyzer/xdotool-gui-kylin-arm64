@@ -9,7 +9,7 @@
 
 ## 直接下载安装
 
-安装包在 [`out/xdotool-gui_1.0.0-1_arm64.deb`](out/xdotool-gui_1.0.0-1_arm64.deb)。
+安装包在 [`release`](https://github.com/Eyzer/xdotool-gui-kylin-arm64/releases/tag/v1.0.0)。
 
 拷到麒麟电脑上，在文件所在目录打开终端，执行：
 
